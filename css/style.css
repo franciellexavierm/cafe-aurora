@@ -1,0 +1,167 @@
+/* Configurações gerais */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff7f5;
+    color: #5c4545;
+}
+
+
+/* Cabeçalho */
+
+header {
+    background-color: #f6cfd2;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0 0 15px;
+    color: #704c4c;
+}
+
+nav a {
+    color: #704c4c;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #b66b75;
+}
+
+
+/* Página inicial */
+
+.inicio {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.inicio h2 {
+    font-size: 32px;
+    color: #704c4c;
+}
+
+.inicio p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+/* Botão */
+
+.botao,
+button {
+    background-color: #d9909a;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.botao:hover,
+button:hover {
+    background-color: #b96f79;
+}
+
+
+/* Destaques da página inicial */
+
+.destaques {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.destaques div {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 250px;
+    text-align: center;
+}
+
+
+/* Título das outras páginas */
+
+.pagina {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.pagina h2 {
+    color: #704c4c;
+}
+
+
+/* Cardápio */
+
+.cardapio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.item h3 {
+    color: #8b5960;
+}
+
+.item strong {
+    color: #b66b75;
+}
+
+
+/* Formulário */
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 8px;
+    margin-top: 25px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #e2b8bd;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+form button {
+    margin-top: 10px;
+}
+
+
+/* Rodapé */
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f6cfd2;
+}
